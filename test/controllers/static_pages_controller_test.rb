@@ -11,9 +11,4 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get bc" do
-    get static_pages_bc_url
-    assert_response :success
-  end
-
 end
